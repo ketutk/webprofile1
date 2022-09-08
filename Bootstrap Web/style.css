@@ -1,0 +1,70 @@
+body{
+    /* height: 4000px; */
+}
+/* NAVBAR */
+.nav-item .nav-link{
+    color: white;
+}
+.nav-item .nav-link:hover{
+    color: black;
+    background-color:#0dcaf0;
+}
+/* AKHIR NAVBAR */
+
+/* HOME */
+#home{
+    /* height: 100vh; */
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+.img-home{
+    width: 100%;
+    height: auto;
+}
+/* AKHIR HOME */
+
+/* ABOUT */
+#about{
+    padding-top: 3rem;;
+    /* height: 100vh; */
+}
+/* AKHIR ABOUT */
+
+/* CONTACT */
+#contact{
+    padding-top: 3rem;
+}
+/* AKHIR CONTACT */
+
+/* PROJECT */
+.line {
+    display: inline-block;
+    font-size: 80%;
+    line-height: normal;
+    width: 100%;
+    line-height: 2rem;
+    background-color: black;
+    border: 1px solid black;
+}
+
+#project{
+    padding-top: 3rem;
+}
+/* ALHIR PROJECT */
+@media (max-width:992px){
+    #home{
+        height: auto;
+        padding-top:6rem;
+    }
+    #about{
+        height: auto;
+    }
+}
+@media (max-width: 576px) {
+    #search{
+        display: none;
+    }
+    #home .row{
+        padding: 0 2rem;
+    }
+}
