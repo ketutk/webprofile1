@@ -25,7 +25,7 @@ body{
 
 /* ABOUT */
 #about{
-    padding-top: 3rem;;
+    padding-top: 3.5rem;;
     /* height: 100vh; */
 }
 /* AKHIR ABOUT */
@@ -48,7 +48,7 @@ body{
 } */
 
 #project{
-    padding-top: 3rem;
+    padding-top: 3.5rem;
 }
 #project .row .col-lg-3{
     padding: 0 1rem;
