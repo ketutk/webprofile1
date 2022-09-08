@@ -65,6 +65,9 @@ body{
         display: none;
     }
     #home .row{
+        text-align:center;
+    }
+    #home .row{
         padding: 0 2rem;
     }
 }
